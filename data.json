@@ -1,36 +1,44 @@
 {
     "name": "Kevin Nielsen",
-    "avatar": "https://media.licdn.com/dms/image/D5635AQFCJEsPWnPSRQ/profile-framedphoto-shrink_200_200/0/1676073399198?e=1677099600&v=beta&t=ISseE6OcRUwzV-h25NUm1iT-sYznEjDgoaQPrPzw1Vg",
-    "link": [
+    "avatar": "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676496608/linktree-clone/headshot-with-pup_cropped_j7klby.jpg",
+    "links": [
         {
-            "title": "My personal website",
-            "url": "https://kevin-nielsen.webflow.io/"
+            "title": "My Personal Website",
+            "href": "https://kevin-nielsen.webflow.io/",
+            "image": "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676499608/linktree-clone/Logo_KN_Purple_square_cwbiux.png"
         },
         {
-            "title": "My Github profile",
-            "url": "https://github.com/knielsen24"
+            "title": "My Github Profile",
+            "href": "https://github.com/knielsen24"
         },
         {
             "title": "Client Project: 300 South Wells",
-            "url": "https://www.300southwells.com/"
+            "href": "https://www.300southwells.com/",
+            "image": "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676498692/linktree-clone/building-icon_hydkc9.png"
+        },
+        {
+            "title": "Where's Wizard - Game Designed in Scratch",
+            "href": "https://github.com/knielsen24",
+            "image": "https://scratch.mit.edu/"
         },
         {
             "title": "My resume",
-            "url": "https://drive.google.com/file/d/1kLCC4PYYl-NJw7Yw3YtPVK9CXr_UqWD8/view?usp=share_link"
+            "href": "https://drive.google.com/file/d/1kLCC4PYYl-NJw7Yw3YtPVK9CXr_UqWD8/view?usp=share_link",
+            "image": "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676499015/linktree-clone/file-person-fill_jbo58r.svg"
         }
     ],
     "socials": [
         {
             "title": "linkedin",
-            "url": "https://www.linkedin.com/in/kevin-nielsen-se/"
+            "href": "https://www.linkedin.com/in/kevin-nielsen-se/"
         },
         {
             "title": "YouTube Channel",
-            "url": "https://www.youtube.com/watch?v=wgAOAGg9vw0"
+            "href": "https://www.youtube.com/watch?v=wgAOAGg9vw0"
         },
         {
             "title": "Instagram",
-            "url": "https://www.instagram.com/ktrain21mn/"
+            "href": "https://www.instagram.com/ktrain21mn/"
         }
     ]
 }
