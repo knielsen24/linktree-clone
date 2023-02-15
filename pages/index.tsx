@@ -19,19 +19,21 @@ function LinkCard({
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center p-1 w-full rounded hover:scale-105 mb-4 transition-all bg-gray-100 border border-gray-300 mb-3 max-w-3xl drop-shadow-md"
+            className="flex items-center p-1 w-full rounded hover:scale-105 mb-4 transition-all bg-gray-100 border border-gray-300 mb-3 max-w-3xl min-w-[300px] drop-shadow-md"
         >
             <div className="flex text-center w-full">
-                {image && (
-                    <Image
-                        className="rounded-sm"
-                        alt={title}
-                        src={image}
-                        width={40}
-                        height={40}
-                    />
-                )}
-                <h2 className="font-semibold w-full text-center">{title}</h2>
+                <div className="w-10">
+                    {image && (
+                        <Image
+                            className="rounded-sm"
+                            alt={title}
+                            src={image}
+                            width={40}
+                            height={40}
+                        />
+                    )}
+                </div>
+                <h2 className="flex justify-center items-center font-semibold w-full -ml-10">{title}</h2>
             </div>
         </a>
     );
