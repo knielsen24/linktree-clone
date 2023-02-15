@@ -1,0 +1,36 @@
+{
+    "name": "Kevin Nielsen",
+    "avatar": "https://media.licdn.com/dms/image/D5635AQFCJEsPWnPSRQ/profile-framedphoto-shrink_200_200/0/1676073399198?e=1677099600&v=beta&t=ISseE6OcRUwzV-h25NUm1iT-sYznEjDgoaQPrPzw1Vg",
+    "link": [
+        {
+            "title": "My personal website",
+            "url": "https://kevin-nielsen.webflow.io/"
+        },
+        {
+            "title": "My Github profile",
+            "url": "https://github.com/knielsen24"
+        },
+        {
+            "title": "Client Project: 300 South Wells",
+            "url": "https://www.300southwells.com/"
+        },
+        {
+            "title": "My resume",
+            "url": "https://drive.google.com/file/d/1kLCC4PYYl-NJw7Yw3YtPVK9CXr_UqWD8/view?usp=share_link"
+        }
+    ],
+    "socials": [
+        {
+            "title": "linkedin",
+            "url": "https://www.linkedin.com/in/kevin-nielsen-se/"
+        },
+        {
+            "title": "YouTube Channel",
+            "url": "https://www.youtube.com/watch?v=wgAOAGg9vw0"
+        },
+        {
+            "title": "Instagram",
+            "url": "https://www.instagram.com/ktrain21mn/"
+        }
+    ]
+}
