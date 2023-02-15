@@ -7,10 +7,7 @@
             "href": "https://kevin-nielsen.webflow.io/",
             "image": "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676499608/linktree-clone/Logo_KN_Purple_square_cwbiux.png"
         },
-        {
-            "title": "My Github Profile",
-            "href": "https://github.com/knielsen24"
-        },
+
         {
             "title": "300 South Wells Project",
             "href": "https://www.300southwells.com/",
@@ -22,7 +19,7 @@
             "image": "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676502174/linktree-clone/scratch-cat_f4owad.png"
         },
         {
-            "title": "My resume",
+            "title": "Checkout My resume",
             "href": "https://drive.google.com/file/d/1kLCC4PYYl-NJw7Yw3YtPVK9CXr_UqWD8/view?usp=share_link",
             "image": "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676499015/linktree-clone/file-person-fill_jbo58r.svg"
         }
@@ -33,11 +30,15 @@
             "href": "https://www.linkedin.com/in/kevin-nielsen-se/"
         },
         {
-            "title": "YouTube Channel",
+            "title": "github",
+            "href": "https://github.com/knielsen24"
+        },
+        {
+            "title": "youtube",
             "href": "https://www.youtube.com/watch?v=wgAOAGg9vw0"
         },
         {
-            "title": "Instagram",
+            "title": "instagram",
             "href": "https://www.instagram.com/ktrain21mn/"
         }
     ]
