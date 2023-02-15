@@ -115,20 +115,23 @@ export default function Home() {
             {data.links.map((link) => (
                 <LinkCard key={link.href} {...link} />
             ))}
-            {data.socials.map((link) => {
-                if (link.href.includes("linkedin")) {
-                    return <LinkedInIcon />;
-                }
-                if (link.href.includes("github")) {
-                    return <GithubIcon />;
-                }
-                if (link.href.includes("youtube")) {
-                    return <YouTubeIcon />;
-                }
-                if (link.href.includes("instagram")) {
-                    return <InstagramIcon />;
-                }
-            })}
+
+            <div className="flex items-center gap-4 mt-8">
+                {data.socials.map((link) => {
+                    if (link.href.includes("linkedin")) {
+                        return <LinkedInIcon />;
+                    }
+                    if (link.href.includes("github")) {
+                        return <GithubIcon />;
+                    }
+                    if (link.href.includes("youtube")) {
+                        return <YouTubeIcon />;
+                    }
+                    if (link.href.includes("instagram")) {
+                        return <InstagramIcon />;
+                    }
+                })}
+            </div>
         </div>
     );
 }
