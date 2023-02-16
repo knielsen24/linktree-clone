@@ -101,7 +101,27 @@ function LinkCard({
     );
 }
 
+interface Data {
+    name: string;
+    avatar: string;
+    links: Link[];
+    socials: Social[];
+}
+
+interface Link {
+    href: string;
+    title: string;
+    image?: string;
+}
+
+interface Social {
+    href: string;
+    title: string;
+}
+
 export default function Home() {
+    // const data: Data | undefined = await get('linktree');
+
     return (
         <div className="flex flex-col items-center justify-center mx-auto w-full mt-16 px-8 ">
             <Image
@@ -117,20 +137,29 @@ export default function Home() {
             ))}
 
             <div className="flex items-center gap-4 mt-8">
-                {data.socials.map((link) => {
-                    if (link.href.includes("linkedin")) {
-                        return <LinkedInIcon />;
-                    }
-                    if (link.href.includes("github")) {
-                        return <GithubIcon />;
-                    }
-                    if (link.href.includes("youtube")) {
-                        return <YouTubeIcon />;
-                    }
-                    if (link.href.includes("instagram")) {
-                        return <InstagramIcon />;
-                    }
-                })}
+                {data.socials.map((social) => (
+                    <a
+                        aria-label={`${social.title} link`}
+                        key={social.href}
+                        href={social.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {}
+                    </a>
+                    // if (social.href.includes("linkedin")) {
+                    //     return <LinkedInIcon />;
+                    // }
+                    // if (social.href.includes("github")) {
+                    //     return <GithubIcon />;
+                    // }
+                    // if (social.href.includes("youtube")) {
+                    //     return <YouTubeIcon />;
+                    // }
+                    // if (social.href.includes("instagram")) {
+                    //     return <InstagramIcon />;
+                    // }
+                ))}
             </div>
         </div>
     );
