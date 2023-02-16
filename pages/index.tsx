@@ -20,7 +20,7 @@ function LinkedInIcon() {
     );
 }
 
-function GithubIcon() {
+function GitHubIcon() {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -145,20 +145,16 @@ export default function Home() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        {}
+                        {social.href.includes("linkedin") ? (
+                            <LinkedInIcon />
+                        ) : social.href.includes("github") ? (
+                            <GitHubIcon />
+                        ) : social.href.includes("youtube") ? (
+                            <YouTubeIcon />
+                        ) : social.href.includes("instagram") ? (
+                            <InstagramIcon />
+                        ) : null}
                     </a>
-                    // if (social.href.includes("linkedin")) {
-                    //     return <LinkedInIcon />;
-                    // }
-                    // if (social.href.includes("github")) {
-                    //     return <GithubIcon />;
-                    // }
-                    // if (social.href.includes("youtube")) {
-                    //     return <YouTubeIcon />;
-                    // }
-                    // if (social.href.includes("instagram")) {
-                    //     return <InstagramIcon />;
-                    // }
                 ))}
             </div>
         </div>
