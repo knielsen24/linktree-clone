@@ -65,6 +65,21 @@ function InstagramIcon() {
     );
 }
 
+function LinkTreeIcon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="26"
+            height="24"
+            fill="currentColor"
+            className="bi bi-tree"
+            viewBox="0 0 16 16"
+        >
+            <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5zM6.437 4.758A.5.5 0 0 0 6 4.5h-.066L8 1.401 10.066 4.5H10a.5.5 0 0 0-.424.765L11.598 8.5H11.5a.5.5 0 0 0-.447.724L12.69 12.5H3.309l1.638-3.276A.5.5 0 0 0 4.5 8.5h-.098l2.022-3.235a.5.5 0 0 0 .013-.507z" />
+        </svg>
+    );
+}
+
 function LinkCard({
     href,
     title,
@@ -82,7 +97,7 @@ function LinkCard({
             className="flex items-center p-1 w-full rounded hover:scale-105 mb-4 transition-all bg-gray-100 border border-gray-300 mb-3 max-w-3xl min-w-[300px] drop-shadow-md"
         >
             <div className="flex text-center w-full">
-                <div className="w-10 h-10">
+                <div className="flex items-center w-10 h-11">
                     {image && (
                         <Image
                             className="rounded-sm"
@@ -131,14 +146,15 @@ export default function Home() {
                 width={100}
                 height={100}
             />
-            <h1 className="font-bold mt-4 text-xl mb-8">{data.name}</h1>
+            <h1 className="font-bold mt-4 text-xl mb-8">@{data.name}</h1>
             {data.links.map((link) => (
                 <LinkCard key={link.href} {...link} />
             ))}
 
-            <div className="flex items-center gap-4 mt-8">
+            <div className="flex items-center gap-4 mt-6">
                 {data.socials.map((social) => (
                     <a
+                        className="hover:scale-110"
                         aria-label={`${social.title} link`}
                         key={social.href}
                         href={social.href}
@@ -157,6 +173,11 @@ export default function Home() {
                     </a>
                 ))}
             </div>
+            <h1 className="flex text-xl mt-6">
+                <div>Linktree</div> <LinkTreeIcon />
+                <div className="ml-1">Clone</div>
+            </h1>
+            <p className="mt-2 text-sm">Built with Next.js</p>
         </div>
     );
 }
