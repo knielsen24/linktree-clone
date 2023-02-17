@@ -178,7 +178,8 @@ export default function Home() {
                 <div>Linktree</div> <LinkTreeIcon />
                 <div className="ml-1">Clone</div>
             </h1>
-            <p className="mt-2 text-sm">Built with Next.js & Tailwindcss</p>
+            <p className="mt-6 text-sm">Built with Next.js</p>
+            <p className="mt-2 text-sm">Designed with Tailwindcss</p>
         </div>
     );
 }
