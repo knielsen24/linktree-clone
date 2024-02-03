@@ -3,26 +3,31 @@
     "avatar": "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676496608/linktree-clone/headshot-with-pup_cropped_j7klby.jpg",
     "links": [
         {
-            "title": "My Personal Website",
-            "href": "https://kevin-nielsen.webflow.io/",
-            "image": "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676499608/linktree-clone/Logo_KN_Purple_square_cwbiux.png"
+            "title": "Portfolio v2",
+            "href": "https://kevinnielsen.dev/",
+            "image": "https://www.kevinnielsen.dev/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.ecf606f5.png&w=640&q=75"
         },
-
+        {
+            "title": "TripleStamp Demo",
+            "href": "https://www.youtube.com/watch?v=wgAOAGg9vw0",
+            "image": "https://github.com/knielsen24/triple-stamp/blob/main/client/public/logo.png?raw=true"
+        },
         {
             "title": "300 South Wells Project",
             "href": "https://3swtest.netlify.app/",
             "image": "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676498692/linktree-clone/building-icon_hydkc9.png"
         },
         {
+            "title": "My Personal Website",
+            "href": "https://kevin-nielsen.webflow.io/",
+            "image": "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676499608/linktree-clone/Logo_KN_Purple_square_cwbiux.png"
+        },
+        {
             "title": "Where's Wizard Activity Game",
             "href": "https://scratch.mit.edu/projects/644898508/",
             "image": "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676502174/linktree-clone/scratch-cat_f4owad.png"
-        },
-        {
-            "title": "Checkout My resume",
-            "href": "https://drive.google.com/file/d/1EGX-0OX3K2KnTn8qh0EHRsQT51XAOH-M/view?usp=share_link",
-            "image": "https://res.cloudinary.com/dooa4lvvv/image/upload/v1676585621/linktree-clone/list-check_ozvt6h.svg"
         }
+       
     ],
     "socials": [
         {
@@ -35,7 +40,7 @@
         },
         {
             "title": "youtube",
-            "href": "https://www.youtube.com/watch?v=wgAOAGg9vw0"
+            "href": "https://www.youtube.com/channel/UCsk1b30JmVTt_lz18das3Jw"
         },
         {
             "title": "instagram",
